@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+
+.navbar{
+    background-color: rgb(43,48,53);
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.navImg{
+    width: 150px;
+    height: 140px;
+    padding-left: 10px;
+}
+
+nav h3{
+    color: #38B6FF;
+    text-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    margin: auto;
+    font-size: 22px;
+
+}
+
+.options ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    padding-top: 50px;
+    padding-right: 20px;
+    font-size: large;
+}
+.options ul li a{
+    text-decoration: none;
+    color: rgba(248, 248, 248, 0.725);
+}
+.options ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+.hOne{
+    text-align: center;
+    color: #1a70a3;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.cards{
+    display: flex;
+    overflow-x: scroll;
+    overflow-x: auto;
+    width: 1440px;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+.turkeyCard{
+    border: 0.3px solid rgba(128, 128, 128, 0.613);
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.turkeyCard h2{
+    text-align: center;
+}
+.turkeyCard img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.turkeyCard:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+button{
+    background-color: #38B6FF;
+    width: 160px;
+    height: 50px;
+    border-radius: 14px;
+    border-color: transparent;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 110px;
+    color: rgb(240, 245, 249);
+    font-size: medium;
+}
+.alpsCard{
+    border: 0.3px solid rgba(128, 128, 128, 0.613);
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.alpsCard h2{
+    text-align: center;
+}
+.alpsCard img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.alpsCard:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}.italyCard{
+    border: 0.3px solid rgba(128, 128, 128, 0.613);
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.italyCard h2{
+    text-align: center;
+}
+.italyCard img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.italyCard:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.brCard{
+    border: 0.3px solid rgba(128, 128, 128, 0.613);
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.brCard h2{
+    text-align: center;
+}
+.brCard img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.brCard:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.pOne{
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+p{
+    color: rgba(0, 0, 0, 0.677);
+}
+.trekCard{
+    border: 0.3px solid rgba(128, 128, 128, 0.613);
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.trekCard h2{
+    text-align: center;
+}
+.trekCard img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.trekCard:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.egyCard{
+    border: 0.3px solid rgba(128, 128, 128, 0.613);
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.egyCard h2{
+    text-align: center;
+}
+.egyCard img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.egyCard:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.blxCard{
+    border: 0.3px solid rgba(128, 128, 128, 0.613);
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.blxCard h2{
+    text-align: center;
+}
+.blxCard img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.blxCard:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.cpCard{
+    border: 0.3px solid rgba(128, 128, 128, 0.613);
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.cpCard h2{
+    text-align: center;
+}
+.cpCard img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.cpCard:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}

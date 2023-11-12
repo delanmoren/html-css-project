@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+
+.navbar{
+    background-color: rgb(43,48,53);
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.navImg{
+    width: 150px;
+    height: 140px;
+    padding-left: 10px;
+}
+
+nav h3{
+    color: #38B6FF;
+    text-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    margin: auto;
+    font-size: 22px;
+
+}
+
+.options ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+.options ul li a{
+    text-decoration: none;
+    color: rgba(248, 248, 248, 0.725);
+}
+.options ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+iframe{
+    border-radius: 10px;
+}

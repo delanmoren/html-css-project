@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+
+.navbar{
+    background-color: rgb(43,48,53);
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.navImg{
+    width: 150px;
+    height: 140px;
+    padding-left: 10px;
+}
+
+nav h3{
+    color: #38B6FF;
+    text-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    margin: auto;
+    font-size: 22px;
+
+}
+
+.options ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    padding-top: 50px;
+    padding-right: 20px;
+    font-size: large;
+}
+.options ul li a{
+    text-decoration: none;
+    color: rgba(248, 248, 248, 0.725);
+}
+.options ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.container{
+    display: flex;
+}
+
+.imgDiv img{
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+}
+
+.formDiv{
+    margin-left: 200px;
+    text-align: center;
+    border: 0.2px solid rgba(110, 110, 110, 0.552);
+    margin-top: 30px;
+    width: 550px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+form h3{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+form input{
+    height: 50px;
+    width: 500px;
+    border-radius: 3px;
+    border: 0.2px solid rgba(110, 110, 110, 0.552);
+    margin-bottom: 10px;
+}
+
+button{
+    height: 50px;
+    width: 400px;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    margin-bottom: 10px;
+}
+
+.signUp{
+    background-color: #38b6ff;
+    font-size: 19px;
+    color: white;
+}
+
+.facebook{
+   background-color: #072762;
+   color: white;
+   font-size: medium;
+   display: flex;
+   text-align: center;
+   margin-left: 75px;
+}
+
+i{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+p{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.google{
+    display: flex;
+    color: black;
+    background-color: white;
+    border: 0.2px solid rgba(167, 167, 167, 0.765);
+    margin-left: 75px;
+}
+
+.google img{
+    margin-left: 100px;
+}
+
+.google img{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+}
+
+.google p{
+    margin-top: 15px;
+    font-size: medium;
+}
+.or{
+    color: rgba(128, 128, 128, 0.672);
+    font-size: small;
+    margin-bottom: 10px;
+    margin-top: 2px;
+}
